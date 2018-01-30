@@ -6,7 +6,7 @@ func swap(a *int, b *int) {
 	*b = tmp
 }
 
-var arr []int = []int{7,2,1,4,8,5,3,10,6,9}
+// var arr []int = []int{7,2,1,4,8,5,3,10,6,9}
 
 func partition(arr *[]int, left int, right int) int {
 	var curArr []int = *arr
