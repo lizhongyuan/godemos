@@ -8,4 +8,5 @@ import (
 func main() {
 	fmt.Println("The follow are demos")
 	Demo.ShowSortFuncs()
+	Demo.ShowHttpseriesFunc()
 }
